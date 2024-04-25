@@ -82,7 +82,7 @@ public class Main {
         }
 
 //Изначально решение 7 задание было таким, оно верное? Я проверя все работает, но гпт сказал мол оно неполноценное.
-        /*  System.out.println();
+        /*  System.out.println( );
         System.out.println("Task number Seven");
         int one = 1;
         int two = 2;
