@@ -15,7 +15,7 @@ public class Main {
         if (temperature <= 5) {
             System.out.println("На улице " + temperature + " градусов, достаточно холодно, нужно надеть шапку");
         }
-        if (temperature > 5) {
+        else  { // поменял
             System.out.println("На улице " + temperature + " градусов, можно выходить без шапки");
         }
 
@@ -55,8 +55,8 @@ public class Main {
         }
 
         System.out.println();
-        System.out.println("Task number six");
-        int capacityCar = 103;
+        System.out.println("Task number six"); //я не совсем понял ошибки, все же верно выводится
+        int capacityCar = 50;
         if (capacityCar <= 60) {
             System.out.println("В вагоне есть сидячие места, " + (60 - capacityCar) + " мест осталось");
         } else if (capacityCar > 60 && capacityCar <= 102) {
@@ -71,12 +71,8 @@ public class Main {
         int two = 5;
         int three = 9;
         boolean numOne = one > two && one > three;
-        boolean numTwo = two < one && two > three;
-        boolean numThree = three > one && three > two;
-        if (numOne) {
-            System.out.println("Самое большое число" + numOne);
-        } else if (numTwo) {
-            System.out.println("Самое большое число" + numTwo);
+        if (numOne){
+            System.out.println("Самое большое число " + one);
         } else {
             System.out.println("Самое большое число " + three);
         }
