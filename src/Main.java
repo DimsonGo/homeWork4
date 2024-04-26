@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Task number one");
-        int age = 18;
+        int age = 17;
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + ", значит он уже достиг совершеннолетия");
         }
-        if (age < 18) {
+        else  {
             System.out.println("Если возраст человека равен " + age + ", он еще не совершеннолетний");
         }
 
@@ -65,23 +65,10 @@ public class Main {
             System.out.println("В вагоне совсем нет места");
         }
 
-        System.out.println();
-        System.out.println("Task number Seven");
-        int one = 4;
-        int two = 5;
-        int three = 9;
-        boolean numOne = one > two && one > three;
-        if (numOne){
-            System.out.println("Самое большое число " + one);
-        } else {
-            System.out.println("Самое большое число " + three);
-        }
-
-//Изначально решение 7 задание было таким, оно верное? Я проверя все работает, но гпт сказал мол оно неполноценное.
-        /*  System.out.println( );
+        System.out.println( );
         System.out.println("Task number Seven");
         int one = 1;
-        int two = 2;
+        int two = 100;
         int three = 3;
         boolean numOne = one > two;
         boolean numTwo = two > three;
@@ -92,7 +79,7 @@ public class Main {
                 System.out.println("я тоже отображусь");
             } else{
                 System.out.println("Самое большое число " + three);
-            }*/
+            }
 
     }
 }
